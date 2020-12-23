@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:background="@color/veryLightBlue"
+    android:gravity="center_vertical">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/lightBlue"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="32"
+        android:id="@+id/exercise_name"
+        android:textSize="16sp"
+        android:lines="1"
+        android:text="benchpress"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="17"
+        android:id="@+id/exercise_weight"
+        android:textSize="16sp"
+        android:lines="1"
+        android:text="100"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:id="@+id/exercise_rep"
+        android:textSize="16sp"
+        android:lines="1"
+        android:text="12"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="12"
+        android:id="@+id/exercise_rpe"
+        android:textSize="16sp"
+        android:lines="1"
+        android:text="8.5"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="26"
+        android:id="@+id/exercise_date"
+        android:textSize="16sp"
+        android:lines="1"
+        android:text="04/09/20"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textAlignment="center"/>
+
+</LinearLayout>

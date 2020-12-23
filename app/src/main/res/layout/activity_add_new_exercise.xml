@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/veryLightBlue"
+    tools:context=".AddNewExercise"
+    android:padding="24dp"
+    >
+
+    <EditText
+        android:id="@+id/new_exercise_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="exercise"
+        android:inputType="textAutoComplete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/new_exercise_weight"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="weight"
+        android:inputType="textAutoComplete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_exercise_name" />
+
+    <EditText
+        android:id="@+id/new_exercise_rep"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="repetition"
+        android:inputType="textAutoComplete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_exercise_weight" />
+
+    <EditText
+        android:id="@+id/new_exercise_rpe"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="RPE"
+        android:inputType="textAutoComplete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_exercise_rep" />
+
+    <EditText
+        android:id="@+id/new_exercise_date"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="date"
+        android:inputType="textAutoComplete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_exercise_rpe" />
+
+
+
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="save"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_exercise_date"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
