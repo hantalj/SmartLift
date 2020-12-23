@@ -1,0 +1,2 @@
+# SmartLift
+Workout tracker application
