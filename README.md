@@ -6,7 +6,7 @@ Instead they want a professional tool for analysing training records to understa
 
 Core functions implemented on 28/02/2021:
 
-- SmartLift can be used as an exercise diary where the user records a session and writes down the exercises performed, the weight used and the repetition achieved. The app records the difficulty of the set on a scale called RPE scale.
+- SmartLift can be used as an exercise diary where the user records a session and writes down the exercises performed, the weight used and the repetition achieved. The app records the difficulty of the set using a scale called RPE scale.
 
 Under construction the following:
 
